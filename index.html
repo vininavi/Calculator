@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">Calculator</h1>
+<p id="description">Calculator using HTML,CSS,DOM and JS</p>
+<table class="center">
+    <tr>
+        <td colspan="3"><input type="text" id="result" /></td>
+        <td><button id="clear" onclick="clearDisplay('c')"> c </button></td>
+    </tr>
+<tr>
+    <td><button id="1" onclick="displayValue('1')"> 1 </button></td>
+    <td><button id="2" onclick="displayValue('2')"> 2 </button></td>
+    <td><button id="3" onclick="displayValue('3')"> 3 </button></td>
+    <td><button id="divide" onclick="displayValue('/')"> /</button></td>
+</tr>
+
+<tr>
+    <td><button id="4" onclick="displayValue('4')"> 4 </button></td>
+    <td><button id="5" onclick="displayValue('5')"> 5 </button></td>
+    <td><button id="6" onclick="displayValue('6')"> 6 </button></td>
+    <td><button id="subtract" onclick="displayValue('-')"> - </button></td>
+</tr>
+
+<tr>
+    <td><button id="7" onclick="displayValue('7')"> 7 </button></td>
+    <td><button id="8" onclick="displayValue('8')"> 8 </button></td>
+    <td><button id="9" onclick="displayValue('9')"> 9 </button></td>
+    <td><button id="add" onclick="displayValue('+')"> + </button></td>
+</tr>
+
+<tr>
+    <td><button id="." onclick="displayValue('.')"> . </button></td>
+    <td><button id="0" onclick="displayValue('0')"> 0 </button></td>
+    <td><button id="equal" onclick="solve()"> = </td>
+    <td><button id="multiply" onclick="displayValue('*')"> * </button></td>
+</tr>
+
+
+</table>
+<script src="./js/script.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+</body>
+</html>
